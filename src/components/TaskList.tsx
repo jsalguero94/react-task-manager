@@ -2,7 +2,7 @@ import { useState, useCallback, useMemo } from "react";
 import { useTasks } from "../context/TaskContext";
 import TaskItem from "./TaskItem";
 import TaskFilter from "./TaskFilter";
-import { TaskFilter as FilterType, Task } from "../types";
+import { TaskFilter as FilterType } from "../types";
 
 /**
  * Component that displays the list of tasks and filtering options
